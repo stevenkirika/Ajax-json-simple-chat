@@ -1,0 +1,99 @@
+/**GENERAL**/
+body{    background-color: #e2e2e2;}
+.clear{clear: both;}
+.form-control, .btn{
+    border-radius: 0px;
+}
+
+
+
+
+
+small{ font-weight: 600; }
+.post-list em{ 
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 8px 5px 10px 18px;
+    font-size: 30px;
+    font-style: normal;
+    text-transform: uppercase;
+
+ }
+
+.post-list em.odd{
+ 	background: #f06;
+ }
+
+.post-list em.even{
+ 	background: #2c6eea;
+ }
+/**SIGN UP FORM**/
+.error-input{ border:1px solid #f03; }
+.sign-up span{
+    float:right;
+    color: #f03;
+ }
+
+.sign-up .form-control {
+    margin-bottom: 15px;
+}
+.sign-up em{
+    font-style: normal;
+    padding: 0 8px;   
+}
+
+/**NAVBAR**/
+.navbar{    
+    background: #fb9b07;
+    min-height: 40px;
+    border-radius: 0px;
+    border-bottom: 1px solid #fff;
+}
+.navbar h3{
+    font-size: 24px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #000;
+}
+
+.nav>li {
+    position: relative;
+    display: inline-block;
+}
+/**online-box**/
+.online-box{
+    background-color: #fafafa;
+    width: 100%;
+    overflow-y: scroll;
+    height: 400px;
+    margin: 5px 0 0 0;
+    padding: 15px 15px;
+
+}
+.online-box ul{
+    list-style: none;
+    padding-left: 0;
+}
+.online-box ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.online-box ul li a{
+    font-weight: 600;
+}
+
+.online-box ul li a:hover{
+    text-decoration: none;
+}
+.online-box ul li a i {
+    font-size: 13px;
+    padding-right: 5px;
+    color: #9a9a9a;
+}
+.online-box ul li a i.active{
+    color: #20c102;
+}
